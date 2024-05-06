@@ -2,7 +2,7 @@ import React from 'react'
 import './Hero.css'
 import profile_img from '../../assets/profile_image.jpeg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import Typed from 'typed.js';
+// import Typed from 'typed.js';
 
 const Hero = () => {
 
