@@ -7,6 +7,7 @@ import project6_img from '../assets/project_6.jpg'
 import project7_img from '../assets/project_7.jpg'
 import project8_img from '../assets/project_8.jpg'
 import project9_img from '../assets/project_9.jpg'
+import project10_img from '../assets/project_10.jpg'
 
 const projects = [
     {
@@ -14,6 +15,12 @@ const projects = [
         w_name:"Tasty Tap",
         w_img:project1_img,
         w_link:"https://tasty-tap-food-ordering-app.vercel.app/"
+    },
+    {
+        w_no:10,
+        w_name:"Personal Portfolio",
+        w_img:project10_img,
+        w_link:"https://aadarshportfolio.orangecom.xyz/"
     },
     {
         w_no:2,
