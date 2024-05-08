@@ -59,7 +59,7 @@ const Contact = () => {
                        <a href="https://leetcode.com/u/Aadarsh032/" target="_blank"> <img src={leetcode_icon} alt="" /> <p>LeetCode</p></a>
                     </div>
                     <div className="contact-detail">
-                       <a href="https://www.linkedin.com/in/aadarsh-kumar-091830244/" target="_blank"> <img src={linkdin_icon} alt="" /> <p>Linkdin</p></a>
+                       <a href="https://www.linkedin.com/in/aadarsh-kumar-091830244/" target="_blank"> <img src={linkdin_icon} alt="" /> <p>Linkedin</p></a>
                     </div>
                     <div className="contact-detail">
                        <a href="https://github.com/Aadarsh032" target="_blank"> <img src={github_icon} alt="" /> <p>Github</p></a>
