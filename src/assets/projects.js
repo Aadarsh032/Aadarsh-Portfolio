@@ -8,6 +8,7 @@ import project7_img from '../assets/project_7.jpg'
 import project8_img from '../assets/project_8.jpg'
 import project9_img from '../assets/project_9.jpg'
 import project10_img from '../assets/project_10.jpg'
+import project11_img from '../assets/project_11.jpg'
 
 const projects = [
     {
@@ -25,7 +26,7 @@ const projects = [
     {
         w_no:11,
         w_name:"Personal Portfolio",
-        w_img:project10_img,
+        w_img:project11_img,
         w_link:"https://aadarshportfolio.orangecom.xyz/"
     },
     {
