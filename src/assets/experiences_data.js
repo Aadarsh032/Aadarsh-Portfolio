@@ -1,7 +1,7 @@
 const experiences_data = [
      {
         company_name:"Freelancer",
-        designation:"Web Developerr",
+        designation:"Web Developer",
         date:"Apr, 2024 - Present",
         achievement1:"Designed and coded a research papers website from scratch using HTML, CSS, JavaScript, and React.js for IIT-Hyderabad Professors enhancing their online presence, helping them gain more visibility.",
         achievement2:"Delivered high-quality, responsive designs with up-to-date coding practices. Managed projects from initial consultation to post-launch support, ensuring client satisfaction."
