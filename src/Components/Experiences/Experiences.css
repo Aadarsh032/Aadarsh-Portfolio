@@ -66,9 +66,8 @@
     
     }
     .experiences hr{
-
         width: 5px;
-        height: 1150px;
+        height: 1120px;
     }
 }
 @media (max-width:565px) 
@@ -78,7 +77,7 @@
     
     }
     .experiences hr{
-        height: 1310px;
+        height: 1380px;
     }
 }
 @media (max-width:350px) 
