@@ -7,6 +7,12 @@ const experiences_data = [
         achievement2:"Designed and implemented a PostgreSQL database schema from scratch. Enhanced user experience with dynamic animations using Framer, ensuring smooth, interactive interfaces.",
         achievements:"Developed backend solutions with Express for content management and data processing, ensuring efficient data handling, scalability, and flexibility across projects"
     },
+     {
+        company_name:"Freelancer",
+        designation:"Web Developer",
+        date:"Apr, 2024 - Aug,2024",
+        achievement1:"Designed and coded a research papers website for IIT-Hyderabad Professor’s research works and a promotional website for a Construction Company using HTML, CSS, JavaScript, React.js, and Framer. Delivered high-quality, responsive designs, ensuring client satisfaction from consultation to post- launch, enhancing visibility and promoting projects effectively."
+    },
     {
         company_name:"G7CR Technologies-A Noventiq Company",
         designation:"Cloud Engineer",
