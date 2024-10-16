@@ -10,7 +10,7 @@ const Hero = () => {
 
   React.useEffect(() => {
     const typed = new Typed(textani.current, {
-      strings: ['Web Developer.', 'Cloud Engineer.','Coder.'],
+      strings: ['Full Stack Developer.', 'Cloud Engineer.','Coder.'],
       loop:true,
       typeSpeed: 90,
       backSpeed:50,
