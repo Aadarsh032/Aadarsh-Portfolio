@@ -22,11 +22,16 @@ const Experiences = () => {
                  <h1>{experience.company_name}</h1>
                  <h2>{experience.designation}</h2>
                  <p>{experience.date}</p>
-                 <p>{experience.achievement1}</p>
-                 <br />
-                 <p>{experience.achievement2}</p>
-                 <br />
-                 <p>{experience.achievement3}</p>
+                 {
+                    experience.experience.map((achievements)=>{
+                      return(
+                        <>
+                        <p>{achievements}</p>
+                        <br/>
+                        </>
+                      )
+                    })
+                 }
             </div>)
           })}
           </div>
