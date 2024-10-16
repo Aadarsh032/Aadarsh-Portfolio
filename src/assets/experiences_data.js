@@ -5,7 +5,7 @@ const experiences_data = [
         date:"Aug, 2024 - Present",
         achievement1:"Led the development of an ERP project in the education sector, building the frontend with Next.js for web ,React Native for mobile and integrating backend functionality with Express.js for seamless communication using Typescript .",
         achievement2:"Designed and implemented a PostgreSQL database schema from scratch. Enhanced user experience with dynamic animations using Framer, ensuring smooth, interactive interfaces.",
-        achievements:"Developed backend solutions with Express for content management and data processing, ensuring efficient data handling, scalability, and flexibility across projects"
+        achievements3:"Developed backend solutions with Express for content management and data processing, ensuring efficient data handling, scalability, and flexibility across projects"
     },
      {
         company_name:"Freelancer",
