@@ -22,7 +22,7 @@ const Navbar = () => {
         <img src={menu_open} onClick={openMenu} alt="" className='nav-mob-open' />
         <ul ref={menuRef} className='nav-menu'>
           <img src={menu_close} onClick={closeMenu} alt="" className='nav-mob-close' />
-            <li> <AnchorLink href='#Home' className='anchorlink'>Home</AnchorLink> </li>
+            <li> <AnchorLink href='#Home' className='anchorlink'>Home </AnchorLink> </li>
             <li> <AnchorLink href='#About' className='anchorlink'>About Me</AnchorLink> </li>
             <li> <AnchorLink href='#Experiences' className='anchorlink'>Experience</AnchorLink> </li>
             <li> <AnchorLink  href='#Projects' className='anchorlink'>Projects</AnchorLink> </li>
