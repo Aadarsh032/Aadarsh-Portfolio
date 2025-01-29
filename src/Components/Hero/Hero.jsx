@@ -30,7 +30,7 @@ const Hero = () => {
         <p>I enhance websites with cutting-edge designs to elevate their aesthetic and functional appeal.</p>
         <div className="hero-action">
            <AnchorLink href='#Contact' className='anchorlink'><div className="hero-connect" >Connect with Me</div></AnchorLink> 
-            <a href="https://drive.google.com/file/d/1g6ILvw_U45NT6e2-9ONxRNKCNXE743Qb/view?usp=sharing" target="_blank" className='hero-resume-link'><div className="hero-resume">My Resume</div></a>
+            <a href="https://drive.google.com/file/d/1k1lzEXquUwuoBvQwbu4nZ5nl5dZ2TayF/view?usp=sharing" target="_blank" className='hero-resume-link'><div className="hero-resume">My Resume</div></a>
         </div>
     </div>
   )
