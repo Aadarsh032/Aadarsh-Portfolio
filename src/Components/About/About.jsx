@@ -16,7 +16,7 @@ const About = () => {
             </div>
             <div className='about-right'>
               <div className="about-para">
-                <p>Full Stack Developer with 1.5 years of experience in front-end and back-end technologies. I also bring expertise in Azure cloud technology from my time as a Cloud Engineer. As a former freelance developer, I deliver creative and customized solutions for diverse client needs.</p>
+                <p>Full Stack Developer with 2.5 years of experience in front-end and back-end technologies. I also bring expertise in Azure cloud technology from my time as a Cloud Engineer. As a former freelance developer, I deliver creative and customized solutions for diverse client needs.</p>
               </div>
               <div className="about-skills">
                 <div className="about-skill"><p>JavaScript</p><hr style={{width:"60%"}}/></div>
@@ -31,18 +31,18 @@ const About = () => {
         </div>
         <div className="about-achievements">
           <div className="about-achievement">
-            <h1>1+</h1>
+            <h1>2.5+</h1>
             <p>Years of Experience</p>
           </div>
           <hr />
           <div className="about-achievement">
-            <h1>10+</h1>
+            <h1>13+</h1>
             <p>Projects Completed</p>
           </div>
           <hr />
           <div className="about-achievement">
             <h1>2+</h1>
-            <p>Happy Clients</p>
+            <p>Impactful Projects</p>
           </div>
         </div>
     </div>

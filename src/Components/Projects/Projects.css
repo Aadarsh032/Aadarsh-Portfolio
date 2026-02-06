@@ -2,6 +2,7 @@
     height: 300px;
     width: 400px;
     border-radius: 50px;
+    object-fit: contain;
 }
 .projects{
     display: flex;

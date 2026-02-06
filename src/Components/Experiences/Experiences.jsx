@@ -18,7 +18,8 @@ const Experiences = () => {
         <hr className='experiences-container-line' />
         <div className='experiences-container-content'>
           {experience_data.map((experience,index)=>{
-            return (<div key={index} className='experiences-format'>
+            return (
+            <div key={index} className='experiences-format' onClick={() => experience?.link? window.open(experience.link, "_blank"): ''}>
                  <h1>{experience.company_name}</h1>
                  <h2>{experience.designation}</h2>
                  <p>{experience.date}</p>

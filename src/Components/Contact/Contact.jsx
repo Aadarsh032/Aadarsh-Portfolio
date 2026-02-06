@@ -65,7 +65,7 @@ const Contact = () => {
                        <a href="https://github.com/Aadarsh032" target="_blank"> <img src={github_icon} alt="" /> <p>Github</p></a>
                     </div>
                     <div className="contact-detail">
-                        <img src={location_icon} alt="" style={ {borderRadius:'50%'}}/> <p>Bengaluru, Karnataka</p>
+                        <img src={location_icon} alt="" style={ {borderRadius:'50%'}}/> <p>Chennai, TamilNadu</p>
                     </div>
                 </div>
             </div>

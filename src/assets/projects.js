@@ -27,7 +27,7 @@ const projects = [
         w_no:11,
         w_name:"Personal Portfolio",
         w_img:project11_img,
-        w_link:"https://aadarshportfolio.orangecom.xyz/"
+        w_link:"https://aadarsh-portfolio-web.vercel.app/"
     },
     {
         w_no:3,
@@ -39,13 +39,13 @@ const projects = [
         w_no:4,
         w_name:"Resume Website",
         w_img:project3_img,
-        w_link:"https://aadarshprofile.orangecom.xyz/"
+        w_link:"https://resume-website-pink.vercel.app/"
     },
     {
         w_no:5,
         w_name:"Spotify Clone",
         w_img:project4_img,
-        w_link:"https://spotifyclone.orangecom.xyz/"
+        w_link:"https://spotify-clone-cbh1.vercel.app/"
     },
     {
         w_no:6,
@@ -63,7 +63,7 @@ const projects = [
         w_no:8,
         w_name:"Sorting Visulaizer",
         w_img:project7_img,
-        w_link:"https://sortingvisualizer.orangecom.xyz/"
+        w_link:"https://sorting-algorithm-visualizer-lime.vercel.app/"
     },
     {
         w_no:9,
