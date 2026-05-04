@@ -16,7 +16,7 @@ const About = () => {
             </div>
             <div className='about-right'>
               <div className="about-para">
-                <p>Full Stack Developer with 2.5 years of experience in front-end and back-end technologies. I also bring expertise in Azure cloud technology from my time as a Cloud Engineer. As a former freelance developer, I deliver creative and customized solutions for diverse client needs.</p>
+                <p>Full Stack Developer with 2.8 years of experience in front-end and back-end technologies. I also bring expertise in Azure cloud technology from my time as a Cloud Engineer. As a former freelance developer, I deliver creative and customized solutions for diverse client needs.</p>
               </div>
               <div className="about-skills">
                 <div className="about-skill"><p>JavaScript</p><hr style={{width:"60%"}}/></div>
