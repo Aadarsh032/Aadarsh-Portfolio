@@ -2,7 +2,7 @@ const experiences_data = [
     {
         company_name: "SurveySparrow",
         designation: "Product Developer",
-        date: "Jul, 2025 - Present",
+        date: "Jul, 2025 - April, 2026",
         experience: [
             "Owned end-to-end development of a scalable nominations system, including database schema architecture designed for future scalability and feature expansion, enabling organization-wide voting.",
             "Re-designed participant selection using DB-driven filtering (departments, groups, custom properties, etc.) in PostgreSQL, reducing OpenSearch dependency and infrastructure cost.",

@@ -10,7 +10,7 @@ const Hero = () => {
 
   React.useEffect(() => {
     const typed = new Typed(textani.current, {
-      strings: ['Full Stack Developer.', 'Cloud Engineer.','Coder.'],
+      strings: ['Product Developer.', 'Cloud Engineer.','Full Stack Developer.'],
       loop:true,
       typeSpeed: 90,
       backSpeed:50,
@@ -30,7 +30,7 @@ const Hero = () => {
         <p>Turning ideas into impactful digital products with full-stack expertise — currently building SaaS.</p>
         <div className="hero-action">
            <AnchorLink href='#Contact' className='anchorlink'><div className="hero-connect" >Connect with Me</div></AnchorLink> 
-            <a href="https://drive.google.com/file/d/1XgX5tuDdTCteT4t-dsd9EvvAQIZQYxHY/view?usp=sharing" target="_blank" className='hero-resume-link'><div className="hero-resume">My Resume</div></a>
+            <a href="https://drive.google.com/file/d/118DWBlQpCW9kUTHcX-kr0UbjCxtqmOcc/view?usp=sharing" target="_blank" className='hero-resume-link'><div className="hero-resume">My Resume</div></a>
         </div>
     </div>
   )
