@@ -1,111 +1,173 @@
-.hero{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 30px;
-    
+/* ─── Layout ──────────────────────────────────────────── */
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
 }
-.hero img{
-    margin-top: 150px;
-    border-radius: 50%;
-    height: 300px;
-    width: 300px;
+
+/* ─── Profile image ───────────────────────────────────── */
+.hero-img-wrapper {
+  position: relative;
   margin-top: 30px;
+  width: 300px;
+  height: 300px;
 }
-.hero h1{
-    text-align: center;
-    width: 70%;
-    font-size: 70px;
-    font-weight: 600;
+
+.hero-img-wrapper img {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  z-index: 1;
+  /* subtle border that catches the gradient colours */
+  box-shadow: 0 0 0 4px rgba(180, 21, 255, 0.25);
 }
-.hero h1 span{  
-   background: linear-gradient(270deg, #B415FF 10%,  #DF8908 100%);
-   
-   background-clip: text; 
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-} 
-#animatedtext{
+
+/* Soft glowing halo that pulses behind the photo */
+.hero-img-glow {
+  position: absolute;
+  inset: -12px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(180, 21, 255, 0.35) 0%, rgba(223, 137, 8, 0.2) 60%, transparent 80%);
+  filter: blur(18px);
+  z-index: 0;
+  animation: pulseGlow 3.5s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50%       { opacity: 1;   transform: scale(1.08); }
+}
+
+/* ─── Headings ────────────────────────────────────────── */
+.hero h1 {
+  text-align: center;
+  width: 70%;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.hero h1 span {
+  background: linear-gradient(270deg, #B415FF 10%, #DF8908 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Animated gradient shimmer */
+  background-size: 200% auto;
+  animation: shimmer 3s linear infinite;
+}
+
+@keyframes shimmer {
+  0%   { background-position: 0%   center; }
+  100% { background-position: 200% center; }
+}
+
+#animatedtext {
   margin-top: 0;
 }
 
-.hero p{
-    width: 50%;
-    text-align: center;
-    font-size: 24px;
-    line-height: 40px;
+/* ─── Paragraph ───────────────────────────────────────── */
+.hero p {
+  width: 50%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
 }
-.hero-action{
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    font-size: 24px;
+
+/* ─── CTA buttons ─────────────────────────────────────── */
+.hero-action {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.hero-connect {
+  padding: 25px;
+  border-radius: 50px;
+  background: linear-gradient(270deg, #B415FF 10%, #DF8908 100%);
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid black;
+  z-index: 1;
+  transition: border-color 0.2s ease;
+}
+
+.hero-resume {
+  padding: 25px 75px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+/* CSS fallback hovers (Framer overrides on desktop) */
+.hero-connect:hover { border: 2px solid white; }
+.hero-resume:hover  { border-color: #B415FF; }
+
+.anchorlink        { text-decoration: none; color: inherit; }
+.hero-resume-link  { color: inherit; text-decoration: none; }
+
+/* ─── Scroll hint ─────────────────────────────────────── */
+.hero-scroll-hint {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.scroll-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #B415FF, #DF8908);
+  box-shadow: 0 0 12px rgba(180, 21, 255, 0.7);
+}
+
+/* ─── Responsive ──────────────────────────────────────── */
+@media (max-width: 768px) {
+  .hero-img-wrapper {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+
+  .hero-img-wrapper img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .hero h1 {
+    margin-top: 30px;
+    width: 90%;
+    font-size: 50px;
+  }
+
+  .hero p {
+    width: 60%;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 10px 0;
+  }
+
+  .hero-action {
+    gap: 16px;
+    font-size: 18px;
     font-weight: 500;
-    margin-bottom: 50px;
-}
-.hero-connect{
-    padding: 25px;
-    border-radius: 50px;
-    background: linear-gradient(270deg, #B415FF 10%,  #DF8908 100%);
-    text-align: center;
-    cursor: pointer;
-    border: 2px solid black;
-    z-index: 1;
-}
-.hero-resume{
-    padding: 25px 75px;
-    border-radius: 50px;
-    border: 2px solid #FFF;
-    text-align: center;
-    cursor: pointer;
-    
-}
-.hero-connect:hover{
-    border: 2px solid white;
-}
-.hero-resume:hover{
-    border-color: #B415FF;
-}
-.anchorlink{
+    margin-bottom: 30px;
+  }
 
-    text-decoration: none;
-    color: inherit;
-}
-.hero-resume-link{
-    color: inherit;
-    text-decoration: none;
-}
+  .hero-connect {
+    padding: 20px 30px;
+    border-radius: 40px;
+  }
 
-
-@media (max-width:768px){
-    .hero img{
-        margin-top: 120px;
-        margin-bottom: 10px;
-        width:300px;
-    }
-    .hero h1{
-        margin-top: 50px;
-        width: 90%;
-        font-size:50px;
-    }
-    .hero p{
-        width: 60%;
-        font-size: 18px;
-        line-height: 32px;
-        margin:10px 0px;
-    }
-    .hero-action{
-        gap:16px;
-        font-size: 18px;
-        font-weight:500;
-        margin-bottom: 50px;
-    }
-    .hero-connect{
-         padding: 20px 30px;
-         border-radius: 40px;
-    }
-    .hero-resume{
-        padding: 20px 50px;
-        border-radius: 40px;
-    }
+  .hero-resume {
+    padding: 20px 50px;
+    border-radius: 40px;
+  }
 }
